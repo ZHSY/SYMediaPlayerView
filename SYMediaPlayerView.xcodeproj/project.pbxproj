@@ -13,26 +13,7 @@
 		F276A2421D75639D00CC4875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F276A2401D75639D00CC4875 /* Main.storyboard */; };
 		F276A2441D75639D00CC4875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276A2431D75639D00CC4875 /* Assets.xcassets */; };
 		F276A2471D75639D00CC4875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F276A2451D75639D00CC4875 /* LaunchScreen.storyboard */; };
-		F276A2521D75639D00CC4875 /* SYMediaPlayerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F276A2511D75639D00CC4875 /* SYMediaPlayerViewTests.m */; };
-		F276A25D1D75639D00CC4875 /* SYMediaPlayerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F276A25C1D75639D00CC4875 /* SYMediaPlayerViewUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F276A24E1D75639D00CC4875 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F276A22C1D75639D00CC4875 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F276A2331D75639D00CC4875;
-			remoteInfo = SYMediaPlayerView;
-		};
-		F276A2591D75639D00CC4875 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F276A22C1D75639D00CC4875 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F276A2331D75639D00CC4875;
-			remoteInfo = SYMediaPlayerView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F276A2341D75639D00CC4875 /* SYMediaPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYMediaPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,30 +26,10 @@
 		F276A2431D75639D00CC4875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F276A2461D75639D00CC4875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F276A2481D75639D00CC4875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F276A24D1D75639D00CC4875 /* SYMediaPlayerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYMediaPlayerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F276A2511D75639D00CC4875 /* SYMediaPlayerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMediaPlayerViewTests.m; sourceTree = "<group>"; };
-		F276A2531D75639D00CC4875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F276A2581D75639D00CC4875 /* SYMediaPlayerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYMediaPlayerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F276A25C1D75639D00CC4875 /* SYMediaPlayerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMediaPlayerViewUITests.m; sourceTree = "<group>"; };
-		F276A25E1D75639D00CC4875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F276A2311D75639D00CC4875 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F276A24A1D75639D00CC4875 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F276A2551D75639D00CC4875 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				F276A2361D75639D00CC4875 /* SYMediaPlayerView */,
-				F276A2501D75639D00CC4875 /* SYMediaPlayerViewTests */,
-				F276A25B1D75639D00CC4875 /* SYMediaPlayerViewUITests */,
 				F276A2351D75639D00CC4875 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				F276A2341D75639D00CC4875 /* SYMediaPlayerView.app */,
-				F276A24D1D75639D00CC4875 /* SYMediaPlayerViewTests.xctest */,
-				F276A2581D75639D00CC4875 /* SYMediaPlayerViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,24 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F276A2501D75639D00CC4875 /* SYMediaPlayerViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				F276A2511D75639D00CC4875 /* SYMediaPlayerViewTests.m */,
-				F276A2531D75639D00CC4875 /* Info.plist */,
-			);
-			path = SYMediaPlayerViewTests;
-			sourceTree = "<group>";
-		};
-		F276A25B1D75639D00CC4875 /* SYMediaPlayerViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F276A25C1D75639D00CC4875 /* SYMediaPlayerViewUITests.m */,
-				F276A25E1D75639D00CC4875 /* Info.plist */,
-			);
-			path = SYMediaPlayerViewUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,42 +99,6 @@
 			productReference = F276A2341D75639D00CC4875 /* SYMediaPlayerView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F276A24C1D75639D00CC4875 /* SYMediaPlayerViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F276A2641D75639D00CC4875 /* Build configuration list for PBXNativeTarget "SYMediaPlayerViewTests" */;
-			buildPhases = (
-				F276A2491D75639D00CC4875 /* Sources */,
-				F276A24A1D75639D00CC4875 /* Frameworks */,
-				F276A24B1D75639D00CC4875 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F276A24F1D75639D00CC4875 /* PBXTargetDependency */,
-			);
-			name = SYMediaPlayerViewTests;
-			productName = SYMediaPlayerViewTests;
-			productReference = F276A24D1D75639D00CC4875 /* SYMediaPlayerViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F276A2571D75639D00CC4875 /* SYMediaPlayerViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F276A2671D75639D00CC4875 /* Build configuration list for PBXNativeTarget "SYMediaPlayerViewUITests" */;
-			buildPhases = (
-				F276A2541D75639D00CC4875 /* Sources */,
-				F276A2551D75639D00CC4875 /* Frameworks */,
-				F276A2561D75639D00CC4875 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F276A25A1D75639D00CC4875 /* PBXTargetDependency */,
-			);
-			name = SYMediaPlayerViewUITests;
-			productName = SYMediaPlayerViewUITests;
-			productReference = F276A2581D75639D00CC4875 /* SYMediaPlayerViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,14 +110,6 @@
 				TargetAttributes = {
 					F276A2331D75639D00CC4875 = {
 						CreatedOnToolsVersion = 7.2.1;
-					};
-					F276A24C1D75639D00CC4875 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = F276A2331D75639D00CC4875;
-					};
-					F276A2571D75639D00CC4875 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = F276A2331D75639D00CC4875;
 					};
 				};
 			};
@@ -232,8 +127,6 @@
 			projectRoot = "";
 			targets = (
 				F276A2331D75639D00CC4875 /* SYMediaPlayerView */,
-				F276A24C1D75639D00CC4875 /* SYMediaPlayerViewTests */,
-				F276A2571D75639D00CC4875 /* SYMediaPlayerViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,20 +139,6 @@
 				F276A2471D75639D00CC4875 /* LaunchScreen.storyboard in Resources */,
 				F276A2441D75639D00CC4875 /* Assets.xcassets in Resources */,
 				F276A2421D75639D00CC4875 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F276A24B1D75639D00CC4875 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F276A2561D75639D00CC4875 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,36 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F276A2491D75639D00CC4875 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F276A2521D75639D00CC4875 /* SYMediaPlayerViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F276A2541D75639D00CC4875 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F276A25D1D75639D00CC4875 /* SYMediaPlayerViewUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F276A24F1D75639D00CC4875 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F276A2331D75639D00CC4875 /* SYMediaPlayerView */;
-			targetProxy = F276A24E1D75639D00CC4875 /* PBXContainerItemProxy */;
-		};
-		F276A25A1D75639D00CC4875 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F276A2331D75639D00CC4875 /* SYMediaPlayerView */;
-			targetProxy = F276A2591D75639D00CC4875 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F276A2401D75639D00CC4875 /* Main.storyboard */ = {
@@ -429,54 +279,6 @@
 			};
 			name = Release;
 		};
-		F276A2651D75639D00CC4875 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SYMediaPlayerViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeyu.SYMediaPlayerViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYMediaPlayerView.app/SYMediaPlayerView";
-			};
-			name = Debug;
-		};
-		F276A2661D75639D00CC4875 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SYMediaPlayerViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeyu.SYMediaPlayerViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYMediaPlayerView.app/SYMediaPlayerView";
-			};
-			name = Release;
-		};
-		F276A2681D75639D00CC4875 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SYMediaPlayerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeyu.SYMediaPlayerViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SYMediaPlayerView;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		F276A2691D75639D00CC4875 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SYMediaPlayerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeyu.SYMediaPlayerViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SYMediaPlayerView;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -494,22 +296,6 @@
 			buildConfigurations = (
 				F276A2621D75639D00CC4875 /* Debug */,
 				F276A2631D75639D00CC4875 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F276A2641D75639D00CC4875 /* Build configuration list for PBXNativeTarget "SYMediaPlayerViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F276A2651D75639D00CC4875 /* Debug */,
-				F276A2661D75639D00CC4875 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F276A2671D75639D00CC4875 /* Build configuration list for PBXNativeTarget "SYMediaPlayerViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F276A2681D75639D00CC4875 /* Debug */,
-				F276A2691D75639D00CC4875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
